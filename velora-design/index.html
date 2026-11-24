@@ -430,6 +430,87 @@ nav .ph{display:flex;align-items:center;gap:10px;color:#3A4F5B}
  <div style="position:absolute;left:60px;bottom:40px;font-size:11px;letter-spacing:.3em;color:#8A8F8C">VELORA DENTAL STUDIO — BOOKING EXPERIENCE · DESKTOP &amp; MOBILE</div>
 </section>
 
+<!-- ================= 6. HERO — SMILE COLLECTION WALL ================= -->
+<style>
+#s6{background:linear-gradient(180deg,#F3EFE7 0%,#F7F4EE 40%,#EFE9DF 84%)}
+#s6 nav{position:relative;z-index:5;border-color:rgba(15,42,58,.08)}
+.wall{position:absolute;left:0;right:0;top:0;height:772px;overflow:hidden}
+.wall .light{position:absolute;inset:0;background:radial-gradient(60% 55% at 72% 38%,rgba(255,255,255,.75),rgba(255,255,255,0) 70%)}
+.grid{position:absolute;left:560px;top:128px;display:grid;grid-template-columns:repeat(13,58px);gap:16px 14px;
+ -webkit-mask-image:linear-gradient(90deg,transparent 0,#000 210px);mask-image:linear-gradient(90deg,transparent 0,#000 210px)}
+.fr{width:58px;height:58px;padding:5px;background:#FBF9F5;border:1.4px solid #C8A97E;box-shadow:0 6px 10px -6px rgba(60,45,25,.35),0 1px 0 rgba(255,255,255,.8) inset}
+.fr svg{display:block;width:100%;height:100%;filter:saturate(.72) sepia(.12)}
+.floor{position:absolute;left:0;right:0;top:772px;bottom:0;background:linear-gradient(180deg,#E2D8C8,#EDE6DA 40%,#E6DDCF)}
+.floor:before{content:"";position:absolute;left:0;right:0;top:0;height:10px;background:linear-gradient(180deg,#D3C7B4,#E2D8C8)}
+.floor:after{content:"";position:absolute;inset:0;opacity:.35;mix-blend-mode:multiply;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.006 .12' numOctaves='4' seed='8'/%3E%3CfeColorMatrix values='0 0 0 0 .55 0 0 0 0 .48 0 0 0 0 .40 0 0 0 .5 0'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)'/%3E%3C/svg%3E")}
+.hero6{position:absolute;left:96px;top:190px;width:520px;z-index:4}
+.hero6 h1{font-size:96px;line-height:.93;margin:22px 0 24px}
+.hero6 p{font-size:17px;line-height:1.65;color:#4C5F69;max-width:440px}
+.plaque{position:absolute;left:600px;top:640px;z-index:3;background:#FBF9F5;border:1px solid rgba(15,42,58,.08);padding:14px 18px;width:236px;box-shadow:0 10px 24px -14px rgba(60,45,25,.4)}
+.plaque b{display:block;font-family:var(--serif);font-weight:500;font-size:19px;font-style:italic}
+.plaque span{font-size:10px;letter-spacing:.16em;color:var(--muted);line-height:1.7;display:block}
+</style>
+<section class="frame" id="s6">
+ <div class="wall"><div class="light"></div><div class="grid" id="smileGrid"></div></div>
+ <div class="floor"></div>
+ <nav>
+  <div class="logo"><svg width="40" height="40" style="color:var(--ink)"><use href="#logo"/></svg><div><div class="name">VELORA</div><small>DENTAL STUDIO</small></div></div>
+  <ul><li class="act">Home</li><li>Treatments</li><li>Our Doctors</li><li>Smile Gallery</li><li>About</li><li>Contact</li></ul>
+  <div class="r"><div class="ph"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#C8A97E" stroke-width="1.5"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>+1 (310) 555 0142</div>
+  <div class="btn solid" style="height:46px;padding:0 22px">Book a Visit</div></div>
+ </nav>
+ <div class="hero6">
+  <div class="over">The Smile Collection</div>
+  <h1>Every smile,<br>a <i>signature</i><br>work.</h1>
+  <p>Fifteen years. Twelve thousand smiles. Each one designed by hand, with the same quiet obsession for detail.</p>
+  <div class="ctas" style="display:flex;gap:14px;margin-top:36px"><div class="btn solid">Book Consultation <span class="ar">→</span></div><div class="btn ghost">View the Collection</div></div>
+ </div>
+ <div class="plaque"><span>VELORA DENTAL STUDIO</span><b>The Smile Collection</b><span>2010 — 2026 · 12,000+ works</span></div>
+ <!-- doctor, seen from behind -->
+ <svg width="300" height="600" viewBox="0 0 300 620" style="position:absolute;left:1010px;top:292px;z-index:3">
+  <defs>
+   <linearGradient id="coat" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0C2230"/><stop offset=".45" stop-color="#1A4256"/><stop offset="1" stop-color="#0D2533"/></linearGradient>
+   <linearGradient id="coatD" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0A1D29"/><stop offset="1" stop-color="#153748"/></linearGradient>
+   <radialGradient id="hair" cx=".45" cy=".3" r=".7"><stop offset="0" stop-color="#4A3528"/><stop offset="1" stop-color="#22160F"/></radialGradient>
+   <radialGradient id="shadow"><stop offset="0" stop-color="#5C4A34" stop-opacity=".45"/><stop offset="1" stop-color="#5C4A34" stop-opacity="0"/></radialGradient>
+  </defs>
+  <ellipse cx="150" cy="606" rx="140" ry="14" fill="url(#shadow)"/>
+  <path d="M114 470h32l-2 128h-26z" fill="#14222B"/><path d="M156 470h32l-4 128h-26z" fill="#1A2A33"/>
+  <ellipse cx="129" cy="600" rx="20" ry="7" fill="#0E171D"/><ellipse cx="172" cy="600" rx="20" ry="7" fill="#0E171D"/>
+  <path d="M94 140C114 121 186 121 206 140L228 300 242 492H58L72 300Z" fill="url(#coat)"/>
+  <path d="M150 128V492" stroke="#0A1D29" stroke-width="1.2" opacity=".7"/>
+  <path d="M150 400V492" stroke="#081620" stroke-width="2"/>
+  <path d="M74 300C110 312 190 312 226 300" stroke="#0A1D29" stroke-width="1.2" fill="none" opacity=".6"/>
+  <path d="M94 142C78 152 70 200 66 260L60 392C59 404 76 406 78 394L92 270Z" fill="url(#coatD)"/>
+  <ellipse cx="69" cy="410" rx="9" ry="14" fill="#C99C7E"/>
+  <path d="M206 142C222 152 236 210 242 270L220 330 208 316 220 268Z" fill="url(#coatD)"/>
+  <path d="M120 120C134 112 166 112 180 120L176 134C160 128 140 128 124 134Z" fill="#F4EFE6"/>
+  <rect x="136" y="88" width="28" height="34" rx="10" fill="#C99C7E"/>
+  <ellipse cx="117" cy="72" rx="6" ry="10" fill="#C08F72"/><ellipse cx="183" cy="72" rx="6" ry="10" fill="#C08F72"/>
+  <ellipse cx="150" cy="64" rx="34" ry="40" fill="url(#hair)"/>
+  <circle cx="150" cy="28" r="17" fill="url(#hair)"/>
+  <path d="M128 40C140 34 160 34 172 40" stroke="#5E4535" stroke-width="1" fill="none" opacity=".6"/>
+ </svg>
+ <div style="position:absolute;left:96px;bottom:44px;z-index:4;font-size:11px;letter-spacing:.26em;color:var(--muted)">EST. 2010 · BEVERLY HILLS</div>
+</section>
+<script>
+(()=>{let seed=7;const r=()=>(seed=(seed*16807)%2147483647)/2147483647;
+const skins=[['#F1D3BE','#D9AE92'],['#E7C2A4','#C99A7A'],['#D7A886','#B07E5E'],['#B98563','#8E5E42'],['#ECCAB2','#D2A487'],['#F4DCCB','#DDB8A0']];
+const lips=['#C77B72','#B8665F','#A65A55','#D08A80','#9A4F4B','#B06A62','#C4857A'];
+const g=document.getElementById('smileGrid');let html='';
+for(let i=0;i<13*8;i++){const [s1,s2]=skins[Math.floor(r()*skins.length)],lp=lips[Math.floor(r()*lips.length)];
+ const w=40+r()*8,cx=30,top=26+r()*3,curve=7+r()*6,open=8+r()*4,id='m'+i;
+ const L=cx-w/2,R=cx+w/2;
+ const outer=`M${L-3} ${top}C${cx-w/4} ${top-6} ${cx-3} ${top-4} ${cx} ${top-2.5} ${cx+3} ${top-4} ${cx+w/4} ${top-6} ${R+3} ${top}C${R-4} ${top+curve+open+4} ${L+4} ${top+curve+open+4} ${L-3} ${top}Z`;
+ const mouth=`M${L} ${top+.5}C${cx-w/4} ${top-1} ${cx+w/4} ${top-1} ${R} ${top+.5}C${R-5} ${top+curve+open-1} ${L+5} ${top+curve+open-1} ${L} ${top+.5}Z`;
+ let teeth='';const n=6,tw=w/n;for(let k=0;k<n;k++){const x=L+k*tw,c=Math.abs(k-(n-1)/2);const h=open+curve*.6-c*1.4;
+  teeth+=`<rect x="${x+.3}" y="${top-1-(c<1?0:.3*c)}" width="${tw-.5}" height="${h}" rx="${tw/3}" fill="#FBF8F2"/>`}
+ html+=`<div class="fr"><svg viewBox="0 0 60 60"><defs><radialGradient id="sk${i}" cx=".5" cy=".45" r=".75"><stop offset="0" stop-color="${s1}"/><stop offset="1" stop-color="${s2}"/></radialGradient><clipPath id="${id}"><path d="${mouth}"/></clipPath></defs>
+ <rect width="60" height="60" fill="url(#sk${i})"/><path d="${outer}" fill="${lp}"/><path d="${mouth}" fill="#3A1C1C"/><g clip-path="url(#${id})">${teeth}</g>
+ <path d="M${cx-8} ${top-5.5}C${cx-3} ${top-7} ${cx+3} ${top-7} ${cx+8} ${top-5.5}" stroke="#fff" stroke-opacity=".25" stroke-width="1.2" fill="none"/></svg></div>`}
+g.innerHTML=html})();
+</script>
+
 <script>
 const cal=document.getElementById('cal');
 ['MO','TU','WE','TH','FR','SA','SU'].forEach(d=>cal.insertAdjacentHTML('beforeend',`<div class="h">${d}</div>`));
